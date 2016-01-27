@@ -1,0 +1,10 @@
+expensereport-postgresql:
+  container_name: expensereport-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  #   - ~/volumes/jhipster/expensereport/postgresql/:/var/lib/postgresql/
+  environment:
+    - POSTGRES_USER=expensereport
+    - POSTGRES_PASSWORD=
+  ports:
+    - "5432:5432"

@@ -1,0 +1,34 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "userid",
+            "otherEntityName": "user",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "email"
+        },
+        {
+            "relationshipId": 2,
+            "relationshipName": "reportid",
+            "otherEntityName": "report",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "reportid"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "projectname",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "255"
+        }
+    ],
+    "changelogDate": "20160127233700",
+    "dto": "no",
+    "service": "no",
+    "pagination": "no"
+}

@@ -1,0 +1,22 @@
+{
+  "generator-jhipster": {
+    "baseName": "expensereport",
+    "packageName": "com.expensereport",
+    "packageFolder": "com/expensereport",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "2ec46d29942e383e98cff4df418bdee8ea87c78e",
+    "testFrameworks": []
+  }
+}

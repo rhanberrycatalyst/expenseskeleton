@@ -1,0 +1,34 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "reportid",
+            "otherEntityName": "project",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "projectname"
+        },
+        {
+            "relationshipId": 2,
+            "relationshipName": "lineitemid",
+            "otherEntityName": "lineitem",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "lineitemid"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "reportname",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": "255"
+        }
+    ],
+    "changelogDate": "20160127233910",
+    "dto": "no",
+    "service": "no",
+    "pagination": "no"
+}
